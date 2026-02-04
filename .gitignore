@@ -1,10 +1,20 @@
+# Node
 node_modules/
+
+# Python
 .venv/
 __pycache__/
 *.pyc
-.DS_Store
-datasets/
+
+# Env files
+.env
+
+# Jupyter
+.ipynb_checkpoints/
+
+# Large files / ML
 *.pt
 *.h5
 *.pkl
+datasets/
 checkpoints/
